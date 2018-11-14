@@ -35,9 +35,10 @@
   var map = L.map("map").setView([38.9687211,-77.7355496], 10);
 
 var OpenMapSurfer_Roads = L.tileLayer('https://korona.geog.uni-heidelberg.de/tiles/roads/x={x}&y={y}&z={z}', {
-  maxZoom: 10,
+  maxZoom: 20,
   attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
+map.addLayer(OpenStreetMap_HOT);
 
   //add a local geojson file
       //Thanks to https://www.igismap.com/add-load-geojson-file-point-polyline-polygon-map-leaflet-js/ for the tutorial
