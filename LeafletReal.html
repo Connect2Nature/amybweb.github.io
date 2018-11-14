@@ -32,10 +32,10 @@
 <div id="map"></div>
 
 <script>
-  var map = L.map("map").setView([38.9687211,-77.7355496], 10);
+  var map = L.map("map").setView([44.2600593,-72.5753869], 10);
 
 var OpenMapSurfer_Roads = L.tileLayer('https://korona.geog.uni-heidelberg.de/tiles/roads/x={x}&y={y}&z={z}', {
-  maxZoom: 20,
+  maxZoom: 4,
   attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
 map.addLayer(OpenMapSurfer_Roads);
@@ -51,11 +51,11 @@ map.addLayer(OpenMapSurfer_Roads);
       }).addTo(map);});
  //add a local geojson file
       //Thanks to https://www.igismap.com/add-load-geojson-file-point-polyline-polygon-map-leaflet-js/ for the tutorial
-      $.getJSON("VT_Data__Zoning_Source_Protection_Area_20130109_Middlebury.geojson",function(data){
+      $.getJSON("VT_Biodiversity_Project__Representative_Landscapes_in_Vermont_polygons (1).geojson",function(data){
       // add GeoJSON layer to the map once the file is loaded
       var datalayer = L.geoJson(data ,{
         onEachFeature: function(feature, featureLayer) {
-          featureLayer.bindPopup(feature.properties.properties);
+          featureLayer.bindPopup(feature.properties.ACRES);
         }
       }).addTo(map);});
 
