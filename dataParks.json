@@ -1,0 +1,546 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "rz27-9d6g",
+      "name" : "Tacoma Parks Map",
+      "attribution" : "Tacoma Metro Parks",
+      "averageRating" : 0,
+      "category" : "Environment and Sustainability",
+      "createdAt" : 1438791662,
+      "description" : "Park information obtained from Tacoma Metro Parks.  For further information, visit their website at www.metroparkstacoma.org.",
+      "displayType" : "map",
+      "downloadCount" : 223,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1494602783,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "moderationStatus" : true,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 24894952,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1479242212,
+      "publicationGroup" : 3832940,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1479241927,
+      "rowsUpdatedBy" : "vvrr-ns7a",
+      "tableId" : 13904500,
+      "totalTimesRated" : 0,
+      "viewCount" : 803,
+      "viewLastModified" : 1473948711,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 277530162,
+        "name" : "Park Name",
+        "dataTypeName" : "text",
+        "description" : "The name given to the park.",
+        "fieldName" : "park_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 30316749,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "Wright Park",
+          "non_null" : 67,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Peck Field",
+            "count" : 20
+          }, {
+            "item" : "Peoples Park",
+            "count" : 19
+          }, {
+            "item" : "Point Defiance Park",
+            "count" : 18
+          }, {
+            "item" : "Portland Avenue Park",
+            "count" : 17
+          }, {
+            "item" : "Puget Park",
+            "count" : 16
+          }, {
+            "item" : "Puget Creek Natural Area",
+            "count" : 15
+          }, {
+            "item" : "Rogers Park",
+            "count" : 14
+          }, {
+            "item" : "Roosevelt Park",
+            "count" : 13
+          }, {
+            "item" : "Ruston Way",
+            "count" : 12
+          }, {
+            "item" : "Ryan's Park",
+            "count" : 11
+          }, {
+            "item" : "Sawyer Tot Lot",
+            "count" : 10
+          }, {
+            "item" : "SERA Campus",
+            "count" : 9
+          }, {
+            "item" : "Sheridan Park",
+            "count" : 8
+          }, {
+            "item" : "South Park",
+            "count" : 7
+          }, {
+            "item" : "Stanley Playfield",
+            "count" : 6
+          }, {
+            "item" : "Stewart Heights Park",
+            "count" : 5
+          }, {
+            "item" : "Swan Creek Park",
+            "count" : 4
+          }, {
+            "item" : "Tacoma Nature Center at Snake Lake",
+            "count" : 3
+          }, {
+            "item" : "Thea's Park",
+            "count" : 2
+          }, {
+            "item" : "Titlow Park",
+            "count" : 1
+          } ],
+          "smallest" : "Alderwood Park"
+        },
+        "format" : { }
+      }, {
+        "id" : 277530163,
+        "name" : "Park Description",
+        "dataTypeName" : "text",
+        "description" : "A description of the park.",
+        "fieldName" : "park_description",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 30316750,
+        "width" : 577,
+        "cachedContents" : {
+          "largest" : "Wright Park is ideal for a leisurely stroll or taking your kids to the playground. This 27 acre arboretum is home to a rich collection of more than 630 trees, including 30 state champions.",
+          "non_null" : 67,
+          "null" : 0,
+          "top" : [ {
+            "item" : "This central Tacoma facility includes four lighted sports fields which are open during organized league play.",
+            "count" : 20
+          }, {
+            "item" : "This park serves Tacoma's Hilltop community with amenities for both active and passive recreation.",
+            "count" : 19
+          }, {
+            "item" : "Natural forest, saltwater beaches and spectacular views offer numerous possibilities for recreation, education and communing with nature.",
+            "count" : 18
+          }, {
+            "item" : "This park serves Tacoma's Eastside with a variety of fields, courts and playground equipment.",
+            "count" : 17
+          }, {
+            "item" : "This park features an updated play area and offers trail connections with Puget Gulch and the Ruston Way waterfront area.",
+            "count" : 16
+          }, {
+            "item" : "At 66-acres, this natural area has one of only three salmon-bearing streams within the city.",
+            "count" : 15
+          }, {
+            "item" : "In 2004 this became the first official off-leash dog park in Tacoma. A community garden and updated play equipment were added in 2011.",
+            "count" : 14
+          }, {
+            "item" : "Roosevelt Park serves the east side of Tacoma and is located east of Portland Avenue.",
+            "count" : 13
+          }, {
+            "item" : "This two-mile long scenic waterfront with panoramic views of Commencement Bay is a great place for walking, jogging, rollerblading and fishing.",
+            "count" : 12
+          }, {
+            "item" : "Surrounded on three sides by residential housing and an extensive green belt on the fourth side, the park features a paths, playground, bbq and picnic tables.",
+            "count" : 11
+          }, {
+            "item" : "Community effort developed this small play area from a vacant lot, giving neighborhood kids a safe place to play.",
+            "count" : 10
+          }, {
+            "item" : "The 75+ acre SERA Campus is home to STAR Center, Gray Middle School, the Boys & Girls Club's Topping Hope Center, and the Metro Parks sports complex. Tacoma's biggest sprayground opened here in June 2014.",
+            "count" : 9
+          }, {
+            "item" : "Through a cooperative effort of neighbors and the City of Tacoma, a vacant lot was converted to a small neighborhood park.",
+            "count" : 8
+          }, {
+            "item" : "This forested park serves south Tacoma and features gardens, play equipment, and a sprayground.",
+            "count" : 7
+          }, {
+            "item" : "Stanley Playfield is located next to Al Davies Boys & Girls Club.",
+            "count" : 6
+          }, {
+            "item" : "A major recreation attraction for Tacoma's east side and south end, this park features updated playing fields, skateboard park, playground and a large outdoor swimming pool with water slide and zero-depth entry.",
+            "count" : 5
+          }, {
+            "item" : "This 290 acres of undeveloped land with primitive walking trails, is nestled on the boundary between Tacoma and Pierce County. Check out our new mountain bike trails!",
+            "count" : 4
+          }, {
+            "item" : "The Tacoma Nature Center is a 71-acre nature preserve encompassing Snake Lake and the surrounding wetlands and forest.",
+            "count" : 3
+          }, {
+            "item" : "A 20 by 38 foot Harbor Flag welcomes people from all nations into the Port of Tacoma from Theas Park.",
+            "count" : 2
+          }, {
+            "item" : "Titlow Park is a large grassy flat park located near a lagoon and Puget Sound at the base of 6th Avenue. It has new spray and playgrounds.",
+            "count" : 1
+          } ],
+          "smallest" : "A 20 by 38 foot Harbor Flag welcomes people from all nations into the Port of Tacoma from Theas Park."
+        },
+        "format" : { }
+      }, {
+        "id" : 277530164,
+        "name" : "Park Location",
+        "dataTypeName" : "location",
+        "description" : "The mapped location of the park.",
+        "fieldName" : "park_location",
+        "position" : 3,
+        "renderTypeName" : "location",
+        "tableColumnId" : 30316751,
+        "width" : 256,
+        "cachedContents" : {
+          "largest" : {
+            "human_address" : "{\"address\":\"S 74th and Cedar St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}"
+          },
+          "non_null" : 67,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "47.283204",
+              "human_address" : "{\"address\":\"3427 Ruston Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.482957"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "47.254063",
+              "human_address" : "{\"address\":\"900 S. Martin Luther King Jr. Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.452195"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "47.301735",
+              "human_address" : "{\"address\":\"5400 N. Pearl St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.515683"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "47.230068",
+              "human_address" : "{\"address\":\"3513 E. Portland Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.408485"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "47.276459",
+              "human_address" : "{\"address\":\"3111 N. Proctor St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.488821"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"N. Alder Way &amp; N. Lawrence St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "47.234181",
+              "human_address" : "{\"address\":\"3151 East L St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.41558"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "47.22588",
+              "human_address" : "{\"address\":\"3601 E. Roosevelt Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.398799"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"Ruston Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"429 S. 80th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"3315 S. Sawyer St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "47.202325",
+              "human_address" : "{\"address\":\"6002 S. Adams St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.486584"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "47.23736",
+              "human_address" : "{\"address\":\"2347 S. Sheridan Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.452853"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "47.211926",
+              "human_address" : "{\"address\":\"4851 S. Tacoma Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.483674"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "47.242688",
+              "human_address" : "{\"address\":\"1712 S. 19th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.45978"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "47.206341",
+              "human_address" : "{\"address\":\"402 E. 56th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.42483"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "human_address" : "{\"address\":\"Roosevelt &amp; E. 42nd St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "47.241842",
+              "human_address" : "{\"address\":\"1919 S. Tyler St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.494016"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "47.260824",
+              "human_address" : "{\"address\":\"405 Dock St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.439544"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "47.251973",
+              "human_address" : "{\"address\":\"8425 6th Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+              "longitude" : "-122.547601"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "47.274972",
+            "human_address" : "{\"address\":\"101 Norpoint Way NE\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}",
+            "longitude" : "-122.378738"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "displayFormat" : {
+        "disableGeolocator" : false,
+        "bkgdLayers" : [ {
+          "layerKey" : "World Street Map (ESRI)",
+          "opacity" : 1
+        } ],
+        "exclusiveLayers" : false,
+        "viewDefinitions" : [ {
+          "uid" : "self",
+          "highlightColor" : "#ddeaf0",
+          "color" : "#0000ff",
+          "plot" : {
+            "locationId" : 30316751,
+            "titleId" : 30316749,
+            "descriptionColumns" : [ {
+              "tableColumnId" : 30316750
+            }, {
+              "tableColumnId" : 30316751
+            } ]
+          },
+          "flyoutsNoLabel" : false,
+          "opacity" : 1,
+          "plotStyle" : "point"
+        } ]
+      },
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "rowLabel" : "Row",
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "vvrr-ns7a",
+        "displayName" : "Connie",
+        "screenName" : "Connie",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "vvrr-ns7a",
+        "displayName" : "Connie",
+        "screenName" : "Connie",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "parks" ]
+    }
+  },
+  "data" : [ [ 29, "642A6190-4422-486F-8977-DCF26E1B481B", 29, 1438766197, "855736", 1438766197, "855736", null, "Manitou Park", "Established in 1915, what was once a tourist camp is now filled with firs and grassy areas and a variety of recreational features.", [ "{\"address\":\"4408 S. Manitou Park\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 32, "023CF368-6374-421D-805B-7E54E892866E", 32, 1438766197, "855736", 1438766197, "855736", null, "McKinley Park", "Pathways among the trees and new playground equipment draws residents from the surrounding neighborhood to enjoy the beauty of one of Tacoma's first parks (1901).", [ "{\"address\":\"907 Upper Park St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 37, "9984FD8D-A64F-4FED-BEEB-2AFDBC1D23C0", 37, 1438766197, "855736", 1438766197, "855736", null, "Oak Tree Park", "Oak Tree Park is a 25 acre parcel that comprises one of the last remnants of the Garry Oak habitat that used to dominate this part of the city.", [ "{\"address\":\"S 74th and Cedar St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 47, "EC26BF0B-AABC-4F6C-892C-BFB3F29C19EE", 47, 1438766197, "855736", 1438766197, "855736", null, "Puget Creek Natural Area", "At 66-acres, this natural area has one of only three salmon-bearing streams within the city.", [ "{\"address\":\"N. Alder Way &amp; N. Lawrence St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 50, "A08A3CFE-F6F1-4643-A1CE-40F7D836DCC3", 50, 1438766197, "855736", 1438766197, "855736", null, "Ruston Way", "This two-mile long scenic waterfront with panoramic views of Commencement Bay is a great place for walking, jogging, rollerblading and fishing.", [ "{\"address\":\"Ruston Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 51, "2F8DCB1E-C07F-4B57-AECC-80C13C4EBE78", 51, 1438766197, "855736", 1438766197, "855736", null, "Ryan's Park", "Surrounded on three sides by residential housing and an extensive green belt on the fourth side, the park features a paths, playground, bbq and picnic tables.", [ "{\"address\":\"429 S. 80th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 52, "ACFAA8DC-E157-4820-A0AF-8A331F1C9362", 52, 1438766197, "855736", 1438766197, "855736", null, "Sawyer Tot Lot", "Community effort developed this small play area from a vacant lot, giving neighborhood kids a safe place to play.", [ "{\"address\":\"3315 S. Sawyer St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 58, "7F52D286-E3D5-482F-8FB0-339E7F78995F", 58, 1438766197, "855736", 1438766197, "855736", null, "Swan Creek Park", "This 290 acres of undeveloped land with primitive walking trails, is nestled on the boundary between Tacoma and Pierce County. Check out our new mountain bike trails!", [ "{\"address\":\"Roosevelt &amp; E. 42nd St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", null, null, null, true ] ]
+, [ 64, "01E3D646-A536-4C31-890D-546B13DF2FEC", 64, 1438766197, "855736", 1438766207, "855736", null, "Verlo Playfield", "Established in 1928, this park features well established fields for sports as well as a new play and spray ground. (This park, previously known as McKinley Playfield, was renamed on March 31, 2014.)", [ "{\"address\":\"4321 McKinley Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.217301", "-122.420899", null, false ] ]
+, [ 19, "0261FF1C-C649-4CBE-B497-7F22E08B3078", 19, 1438766197, "855736", 1438766207, "855736", null, "Irving Park", "Overlooking the Nalley Valley, this neighborhood park will soon feature a new basketball court, playground and picnic amenities.", [ "{\"address\":\"2502 S. Hosmer St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.235996", "-122.46159", null, false ] ]
+, [ 62, "24642263-6650-4043-B292-A69F99BE2D6C", 62, 1438766197, "855736", 1438766207, "855736", null, "Ursich Park", "Ursich Park is wild and full of native habitat. It is a prime example of an urban greenbelt.", [ "{\"address\":\"2412 N. 29th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.273824", "-122.469163", null, false ] ]
+, [ 31, "096C5245-AA97-4ABC-A880-6C6ED5D37A03", 31, 1438766197, "855736", 1438766207, "855736", null, "McCarver Park", "This park reflects the Ukrainian heritage of Zina Linnik and is filled with activities she loved - a reading circle, playground with high tech interactive play equipment and tetherball.", [ "{\"address\":\"2301 South J St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.239289", "-122.447368", null, false ] ]
+, [ 66, "098485DB-4002-408C-80D9-245E3AD8B0B5", 66, 1438766197, "855736", 1438766207, "855736", null, "Wapato Park", "Wapato Park lies in a beautiful setting of lake and forest and is one of the most urban parks in the city. Visitors can enjoy display gardens, a walking trail around the lake and an impressive, historic pergola.", [ "{\"address\":\"6500 S. Sheridan Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.19832", "-122.45251", null, false ] ]
+, [ 7, "117667CC-E5AE-41DF-A02F-B5F92F73E781", 7, 1438766197, "855736", 1438766207, "855736", null, "Cloverdale Park", "Situated in a residential neighborhood, this park features a picnic shelter, basketball & tennis courts, play equpment and a walking path.", [ "{\"address\":\"1635 E. 59th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.203473", "-122.406668", null, false ] ]
+, [ 25, "12630844-74B7-4AE8-95B2-BC7DC32E2795", 25, 1438766197, "855736", 1438766207, "855736", null, "Les Davis Pier (Ruston Way)", "Les Davis Pier offers a great place to fish 24/7 with fantastic views. Divers often use this as a starting point - it's the site of an artificial reef.", [ "{\"address\":\"3427 Ruston Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.283204", "-122.482957", null, false ] ]
+, [ 48, "303EAFB9-7EF7-4652-AD38-24E256B708D6", 48, 1438766197, "855736", 1438766207, "855736", null, "Rogers Park", "In 2004 this became the first official off-leash dog park in Tacoma. A community garden and updated play equipment were added in 2011.", [ "{\"address\":\"3151 East L St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.234181", "-122.41558", null, false ] ]
+, [ 55, "36825C63-64E3-4D10-BA06-8609A5952104", 55, 1438766197, "855736", 1438766207, "855736", null, "South Park", "This forested park serves south Tacoma and features gardens, play equipment, and a sprayground.", [ "{\"address\":\"4851 S. Tacoma Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.211926", "-122.483674", null, false ] ]
+, [ 13, "378B6C12-BCCA-4822-844C-CEF1EF949AB1", 13, 1438766197, "855736", 1438766207, "855736", null, "Ferry Park", "Tacoma's first park, just a little over one-half acre, was donated by C.P. and Evelyn Ferry on May 14, 1883.", [ "{\"address\":\"1400 S. Sheridan Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.248234", "-122.455261", null, false ] ]
+, [ 9, "37EAED8B-AE50-42AF-9460-980970F76390", 9, 1438766197, "855736", 1438766207, "855736", null, "Dash Point Park", "Established in 1922, this park offers 700 feet of sandy saltwater beach, views of Puget Sound, a fishing pier, picnic facilities and beach walking.", [ "{\"address\":\"1500 Beach Dr. NE\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.319152", "-122.427179", null, false ] ]
+, [ 23, "3B0ACBC7-386A-4CFB-B93A-BCC86B3ECB19", 23, 1438766197, "855736", 1438766207, "855736", null, "Julia's Gulch", "The steep forested slopes of Julia's Gulch create a buffer between the industrial tideflats and residential neighborhoods in Northeast Tacoma.", [ "{\"address\":\"101 Norpoint Way NE\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.274972", "-122.378738", null, false ] ]
+, [ 15, "40BBB6A1-3F60-4973-B36C-E689A4304959", 15, 1438766197, "855736", 1438766207, "855736", null, "Garfield Park", "Find fields, courts, play & fitness equipment and more inside this park. Hikers enjoy exploring the gulch and waterfront via the connecting trails.", [ "{\"address\":\"400 N. Burough Rd.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.269572", "-122.456929", null, false ] ]
+, [ 21, "4BEF0FA0-8447-4364-8F9E-3BBA71A0D85F", 21, 1438766197, "855736", 1438766207, "855736", null, "Jane Clark Park", "This park features new field improvements, benches, picnic tables and play equipment.", [ "{\"address\":\"4825 N. 39th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.284653", "-122.503473", null, false ] ]
+, [ 35, "4F82A01C-3939-46AC-B5E5-B94EFD9D2293", 35, 1438766197, "855736", 1438766207, "855736", null, "North Slope Historic Park", "Originally used by Tacoma City Light from 1951 to 1983 as a Substation, this became a neighborhood 'Pocket Park' in 2002.", [ "{\"address\":\"1015 N. 8th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.264012", "-122.460847", null, false ] ]
+, [ 5, "55C95B4C-F717-461F-B8E9-5A37368162E6", 5, 1438766197, "855736", 1438766207, "855736", null, "Charlotte's Blueberry Park", "A farm in 1929, volunteers now help maintain several thousand blueberry bushes that can be picked July through September (weather dependent).", [ "{\"address\":\"7402 East D St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.189654", "-122.426093", null, false ] ]
+, [ 61, "599BB5CE-914D-49B2-BFC8-0F87E13E5437", 61, 1438766197, "855736", 1438766207, "855736", null, "Titlow Park", "Titlow Park is a large grassy flat park located near a lagoon and Puget Sound at the base of 6th Avenue. It has new spray and playgrounds.", [ "{\"address\":\"8425 6th Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.251973", "-122.547601", null, false ] ]
+, [ 56, "5A02FEB7-4E7D-41A9-B0C4-EF0C50439099", 56, 1438766197, "855736", 1438766207, "855736", null, "Stanley Playfield", "Stanley Playfield is located next to Al Davies Boys & Girls Club.", [ "{\"address\":\"1712 S. 19th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.242688", "-122.45978", null, false ] ]
+, [ 2, "5A5BA67C-369E-4C08-96EC-B7BA6E8063D4", 2, 1438766197, "855736", 1438766207, "855736", null, "Alling Park", "One of the oldest parks in Tacoma, what was once Alling Fruit Farm is now a place for the community to play, shoot hoops and picnic.", [ "{\"address\":\"1134 S. 60th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.202798", "-122.449293", null, false ] ]
+, [ 65, "5CA0C4A8-1B46-4924-BBF1-D81EF0B32B44", 65, 1438766197, "855736", 1438766207, "855736", null, "Wapato Hills Park", "Wapato Hills Park in South Tacoma features the Skip & Laura Vaughn playground & sprayground next to large undeveloped area.", [ "{\"address\":\"6231 S. Wapato St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.200211", "-122.468269", null, false ] ]
+, [ 43, "620BBE0A-2FC7-4AA0-8191-26008D954856", 43, 1438766197, "855736", 1438766207, "855736", null, "Peoples Park", "This park serves Tacoma's Hilltop community with amenities for both active and passive recreation.", [ "{\"address\":\"900 S. Martin Luther King Jr. Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.254063", "-122.452195", null, false ] ]
+, [ 26, "6562A0BC-63E9-4A11-A995-C223271FC6BF", 26, 1438766197, "855736", 1438766207, "855736", null, "Lincoln Heights Park", "This neighborhood park with basketball, picnic and play equipment is located close to Costco.", [ "{\"address\":\"3690 S. Steele St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.222553", "-122.468631", null, false ] ]
+, [ 3, "6F3FE776-E14D-4D5F-80D5-AA9C0A679285", 3, 1438766197, "855736", 1438766207, "855736", null, "Baltimore Park", "This small park serves neighbor's recreation needs with a playfield often used for soccer, walking trails and play equipment.", [ "{\"address\":\"4716 N Baltimore St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.292306", "-122.507697", null, false ] ]
+, [ 40, "7C13DB7B-0232-4D94-BB59-0726251022C9", 40, 1438766197, "855736", 1438766207, "855736", null, "Old Town Park", "Located in Tacoma's Old Town business district, Old Town Park hosts the historic Job Carr Cabin.", [ "{\"address\":\"2350 N. 30th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.274749", "-122.468569", null, false ] ]
+, [ 10, "820B5251-0C64-484E-860C-61884A0D1637", 10, 1438766197, "855736", 1438766207, "855736", null, "Delong Park", "Adjacent to DeLong Elementary School, this park offers a beautiful walk through shrubs, trees and wetlands and is home to many bird species.", [ "{\"address\":\"4702 S. 12th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.250136", "-122.500726", null, false ] ]
+, [ 44, "82FBEB5F-4B87-4E03-9FEC-CD7260DEB60F", 44, 1438766197, "855736", 1438766207, "855736", null, "Point Defiance Park", "Natural forest, saltwater beaches and spectacular views offer numerous possibilities for recreation, education and communing with nature.", [ "{\"address\":\"5400 N. Pearl St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.301735", "-122.515683", null, false ] ]
+, [ 30, "849A2665-87D8-49DF-86C3-FF1E34899050", 30, 1438766197, "855736", 1438766207, "855736", null, "Marine Park (Ruston Way)", "Sunbathers, scuba divers, volleyball players and picnickers congregate here on the northwest end of Ruston Way.", [ "{\"address\":\"3427 Ruston Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.283204", "-122.482957", null, false ] ]
+, [ 59, "85EDBA52-51AC-4B54-BFA5-26CED248E387", 59, 1438766197, "855736", 1438766207, "855736", null, "Tacoma Nature Center at Snake Lake", "The Tacoma Nature Center is a 71-acre nature preserve encompassing Snake Lake and the surrounding wetlands and forest.", [ "{\"address\":\"1919 S. Tyler St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.241842", "-122.494016", null, false ] ]
+, [ 36, "8C334284-289E-4962-B67F-FD71CEE9C400", 36, 1438766197, "855736", 1438766207, "855736", null, "Notheast Tacoma Playground", "Sports fields, play equipment, basketball court and picnic tables await visitors to this park.", [ "{\"address\":\"5520 29th St. NE\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.28271", "-122.373381", null, false ] ]
+, [ 28, "925D9530-2C4E-4280-9B04-5068CC4AFC78", 28, 1438766197, "855736", 1438766207, "855736", null, "Lots for Tots", "This tiny park features play equipment and picnic tables.", [ "{\"address\":\"1216 South I St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.25058", "-122.448473", null, false ] ]
+, [ 4, "926555E2-C2B1-47F8-BFAA-D2858F906ED1", 4, 1438766197, "855736", 1438766207, "855736", null, "Browns Point Athletic Complex", "Upgrades to the athletic fields for Little League baseball and soccer field complex at Browns Point Elementary School were completed in 2011.", [ "{\"address\":\"201 Tulalip St. NE\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.305401", "-122.442652", null, false ] ]
+, [ 53, "9290B075-5374-480A-A997-12AF1491F46E", 53, 1438766197, "855736", 1438766207, "855736", null, "SERA Campus", "The 75+ acre SERA Campus is home to STAR Center, Gray Middle School, the Boys & Girls Club's Topping Hope Center, and the Metro Parks sports complex. Tacoma's biggest sprayground opened here in June 2014.", [ "{\"address\":\"6002 S. Adams St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.202325", "-122.486584", null, false ] ]
+, [ 45, "93ABFCCC-EF72-4F52-88B7-E0F2E51C917A", 45, 1438766197, "855736", 1438766207, "855736", null, "Portland Avenue Park", "This park serves Tacoma's Eastside with a variety of fields, courts and playground equipment.", [ "{\"address\":\"3513 E. Portland Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.230068", "-122.408485", null, false ] ]
+, [ 60, "96E632D8-D9EB-4F67-84C4-2BC3C0F1A747", 60, 1438766197, "855736", 1438766207, "855736", null, "Thea's Park", "A 20 by 38 foot Harbor Flag welcomes people from all nations into the Port of Tacoma from Theas Park.", [ "{\"address\":\"405 Dock St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.260824", "-122.439544", null, false ] ]
+, [ 27, "9866FFDE-4A0D-4B42-9247-5AAB5878D533", 27, 1438766197, "855736", 1438766207, "855736", null, "Lincoln Park", "Established in 1889, this neighborhood park located by Lincoln High School is home to a significant tree collection similar in character to Wright Parks.", [ "{\"address\":\"801 S. 37th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.224711", "-122.443987", null, false ] ]
+, [ 11, "A0460F6F-A5D0-4ACB-A6A6-0B3B2A922A39", 11, 1438766197, "855736", 1438766207, "855736", null, "Dickman Mill Park (Ruston Way)", "This nine-acre park on Ruston Way, was the site of the last in a long tradition of lumber mills on Tacoma's \"Old Town\" waterfront to close down.", [ "{\"address\":\"2423 N. Ruston Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.276717", "-122.470057", null, false ] ]
+, [ 6, "A207D1FE-4F03-4FF9-A9E4-E6C39B08BECB", 6, 1438766197, "855736", 1438766207, "855736", null, "China Lake Park", "This 11 acre park is largely undeveloped and contains one of the largest lakes within city limits.", [ "{\"address\":\"1811 S. Shirley St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.243093", "-122.51017", null, false ] ]
+, [ 33, "A8CBEF7B-502F-4FB7-B66C-ED411AECBF76", 33, 1438766197, "855736", 1438766207, "855736", null, "Neighbors Park", "Established in 2006, what was once a vacant lot with blight and crime issues is now a great play and community garden area for neighbors.", [ "{\"address\":\"722 South I St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.255587", "-122.449597", null, false ] ]
+, [ 38, "AB0CCF54-A664-492D-BB5D-7C047C202977", 38, 1438766197, "855736", 1438766207, "855736", null, "Oakland/Madrona Park", "Established in 1937, this 3.28 acre park features a playground, basketball court and small wooded area.", [ "{\"address\":\"3114 S. Madison St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.231681", "-122.489709", null, false ] ]
+, [ 16, "B9F174F2-E57A-4CA2-B6E3-553ADBB59AF1", 16, 1438766197, "855736", 1438766207, "855736", null, "Hamilton Park (Ruston Way)", "Stop for a rest at the picnic table and a drink of water. From here you can access the beach or the public dock next to the Silver Cloud Inn.", [ "{\"address\":\"2321 Ruston Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.276218", "-122.467811", null, false ] ]
+, [ 46, "BA4414ED-F72C-4262-A732-5450F48CC572", 46, 1438766197, "855736", 1438766207, "855736", null, "Puget Park", "This park features an updated play area and offers trail connections with Puget Gulch and the Ruston Way waterfront area.", [ "{\"address\":\"3111 N. Proctor St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.276459", "-122.488821", null, false ] ]
+, [ 49, "C2461CFB-2935-4FF4-B36A-24EAE56EA7CE", 49, 1438766197, "855736", 1438766207, "855736", null, "Roosevelt Park", "Roosevelt Park serves the east side of Tacoma and is located east of Portland Avenue.", [ "{\"address\":\"3601 E. Roosevelt Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.22588", "-122.398799", null, false ] ]
+, [ 67, "C31D0127-B912-4F34-9BC4-000A3C624184", 67, 1438766197, "855736", 1438766207, "855736", null, "Wright Park", "Wright Park is ideal for a leisurely stroll or taking your kids to the playground. This 27 acre arboretum is home to a rich collection of more than 630 trees, including 30 state champions.", [ "{\"address\":\"501 South I St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.258103", "-122.450165", null, false ] ]
+, [ 14, "C36DA525-0921-49C9-A372-A68EE185941F", 14, 1438766197, "855736", 1438766207, "855736", null, "Franklin Park", "Adjacent to Franklin Elementary, this newly renovated 20 acre park has a sprayground, trails and walkways, plaza space and picnic shelter.", [ "{\"address\":\"1201 S. Puget Sound Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.249358", "-122.482149", null, false ] ]
+, [ 41, "CB8C0C5E-8C0C-4E20-8811-94A779648F58", 41, 1438766197, "855736", 1438766207, "855736", null, "Optimist Park", "Acquired and developed in part by the Optimists Club, this park in the west end residential area covers almost three acres.", [ "{\"address\":\"1330 N James St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.262625", "-122.534524", null, false ] ]
+, [ 18, "D3525325-DC0D-4C16-AC06-2B0939B01C51", 18, 1438766197, "855736", 1438766207, "855736", null, "Heidleberg/Davis Park", "This sports complex near Cheney Stadium was established in 1955. It was originally part of the Snake Lake Park property.", [ "{\"address\":\"1902 S. Tyler St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.242127", "-122.494153", null, false ] ]
+, [ 34, "D3825AAD-04D7-43B5-BC0E-E9EBEB8208E9", 34, 1438766197, "855736", 1438766207, "855736", null, "Norpoint Park", "New playground and sprayground, landscaping (including rain gardens and eco-turf), furnishings, skate park and trail elements.", [ "{\"address\":\"4818 Nassau Ave. NE\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.300087", "-122.402545", null, false ] ]
+, [ 63, "DC63B159-A315-4B1C-86EA-A4BC4606AB7A", 63, 1438766197, "855736", 1438766207, "855736", null, "Vassault Park", "One of largest neighborhood parks in Tacoma, Vassault Park is the site of the start/finish line of the annual Sound to Narrows run and several other special events.", [ "{\"address\":\"6100 N. 37th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.281749", "-122.518119", null, false ] ]
+, [ 22, "DC692F18-0BCA-419B-839B-0590E406CF05", 22, 1438766197, "855736", 1438766207, "855736", null, "Jefferson Park", "At close to 15 acres this neighborhood park has room for team sports, kids play and spray ground equipment, picnicing and a fieldhouse for classes.", [ "{\"address\":\"801 N Mason Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.257154", "-122.494295", null, false ] ]
+, [ 39, "E1932C68-F889-4736-AC25-5E311C784019", 39, 1438766197, "855736", 1438766207, "855736", null, "Old Town Dock (Ruston Way)", "Old Town Dock reopened May 15, 2013 after five years and $2.3 million in renovations.", [ "{\"address\":\"2123 Schuster Pkwy.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.275764", "-122.465276", null, false ] ]
+, [ 54, "E79590E7-B979-4205-8B8D-054DE693B983", 54, 1438766197, "855736", 1438766207, "855736", null, "Sheridan Park", "Through a cooperative effort of neighbors and the City of Tacoma, a vacant lot was converted to a small neighborhood park.", [ "{\"address\":\"2347 S. Sheridan Ave.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.23736", "-122.452853", null, false ] ]
+, [ 57, "F0E03E0C-3CFA-4669-820C-F92236995C6A", 57, 1438766197, "855736", 1438766207, "855736", null, "Stewart Heights Park", "A major recreation attraction for Tacoma's east side and south end, this park features updated playing fields, skateboard park, playground and a large outdoor swimming pool with water slide and zero-depth entry.", [ "{\"address\":\"402 E. 56th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.206341", "-122.42483", null, false ] ]
+, [ 42, "F364FEE1-F146-46C3-85C2-DA11F55CA8AC", 42, 1438766197, "855736", 1438766207, "855736", null, "Peck Field", "This central Tacoma facility includes four lighted sports fields which are open during organized league play.", [ "{\"address\":\"1425 S. State St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.247298", "-122.465625", null, false ] ]
+, [ 17, "F377FAE8-40C9-484C-AAB3-C0A8C504B1BF", 17, 1438766197, "855736", 1438766207, "855736", null, "Headquarters", "Next to Heidelberg Davis Athletic Complex and close to the Tacoma Nature Center, this office handles in-person class/event registration and rentals and is the site for Board meetings.", [ "{\"address\":\"4702 S. 19th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.242877", "-122.500035", null, false ] ]
+, [ 12, "F46D11B2-2291-45FC-9A68-1CB397E48B33", 12, 1438766197, "855736", 1438766207, "855736", null, "Fern Hill Park", "Special play equipment in this park is designed to provide safe play for all children, including those with limited motor skills.", [ "{\"address\":\"502 S. 88th St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.177349", "-122.438613", null, false ] ]
+, [ 24, "F4EFCF12-61DB-455C-BB45-7C45E818A459", 24, 1438766197, "855736", 1438766207, "855736", null, "Kandle Park", "Recent updates to Kandle Park include walking trails, a new playground, skate dots, mini-sprayground, wave pool, four 25 meter lap lanes, and separate spraypool.", [ "{\"address\":\"2323 N Shirley St.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.26994", "-122.510549", null, false ] ]
+, [ 8, "FB380A17-62E4-462D-9812-1AE669F1BC5E", 8, 1438766197, "855736", 1438766207, "855736", null, "Cumming Park (Ruston Way)", "This small unofficial park along Ruston Way features a circular rock garden.", [ "{\"address\":\"3939 Ruston Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.286166", "-122.487879", null, false ] ]
+, [ 20, "FD2CDF37-8A4E-47F5-B4D3-A1EEAD16DB55", 20, 1438766197, "855736", 1438766207, "855736", null, "Jack Hyde Park at Commencement Bay", "Located on the water's edge in Old Town, this park was renamed for a former Tacoma mayor and leader in developing the Ruston Way waterfront.", [ "{\"address\":\"2201 Ruston Way\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.275868", "-122.465901", null, false ] ]
+, [ 1, "89F6BC85-697C-40B4-AF6D-31A0F7315A9E", 1, 1438766197, "855736", 1438766356, "855736", null, "Alderwood Park", "Play, walk the trails, or enjoy a picnic in this forested park adjacent to Kobetich Library", [ "{\"address\":\"208 Browns Point Blvd.\",\"city\":\"Tacoma\",\"state\":\"WA\",\"zip\":\"\"}", "47.286619", "-122.384519", null, false ] ]
+ ]
+}
