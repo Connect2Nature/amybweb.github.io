@@ -22,6 +22,11 @@
  <!-- Add JQuery to get local GeoJson file -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+ <!-- Import the marker clusters from the files we downloaded -->
+     <link rel="stylesheet" href="Leaflet.markercluster-1.4.1/dist/MarkerCluster.css"/>
+     <link rel="stylesheet" href="Leaflet.markercluster-1.4.1/dist/MarkerCluster.Default.css"/>
+     <script src="Leaflet.markercluster-1.4.1/dist/leaflet.markercluster-src.js"></script>
+
   <style>
     body { margin:0; padding:0; }
     #map { position: absolute; top:0; bottom:0; right:0; left:0; }
@@ -48,7 +53,13 @@ map.addLayer(OpenMapSurfer_Roads);
         onEachFeature: function(feature, featureLayer) {
           featureLayer.bindPopup(feature.properties.InvasiveName);
         }
-      }).addTo(map);});
+      });
+    //Create the marker cluster group
+      var markers = L.markerClusterGroup();
+      //Add the markers to the datalayer
+      markers.addLayer(datalayer);
+      //add the markers to the map
+      map.addLayer(markers);});
       //add a local geojson file
       //Thanks to https://www.igismap.com/add-load-geojson-file-point-polyline-polygon-map-leaflet-js/ for the tutorial
       $.getJSON("VT_Data__Statewide_Standardized_Parcel_Data__inactive_parcel_polygons (1).geojson",function(data){
