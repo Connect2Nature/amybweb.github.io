@@ -35,7 +35,7 @@
   var map = L.map("map").setView([44.2600593,-72.5753869], 10);
 
 var OpenMapSurfer_Roads = L.tileLayer('https://korona.geog.uni-heidelberg.de/tiles/roads/x={x}&y={y}&z={z}', {
-  maxZoom: 10,
+  maxZoom: 14,
   attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
 map.addLayer(OpenMapSurfer_Roads);
@@ -57,6 +57,14 @@ map.addLayer(OpenMapSurfer_Roads);
         onEachFeature: function(feature, featureLayer) {
           featureLayer.bindPopup(feature.properties.ACRES);
         }
+      }).addTo(map);});
+
+      //add a local geojson file
+      //Thanks to https://www.igismap.com/add-load-geojson-file-point-polyline-polygon-map-leaflet-js/ for the tutorial
+      $.getJSON("VT_Data__Statewide_Standardized_Parcel_Data__inactive_parcel_polygons (1).geojson",function(data){
+      // add GeoJSON layer to the map once the file is loaded
+      var datalayer = L.geoJson(data ,{
+        onEachFeature: function(feature, featureLayer) 
       }).addTo(map);});
 
 </script>
