@@ -49,8 +49,16 @@ map.addLayer(OpenStreetMap_HOT);
           featureLayer.bindPopup(feature.properties.InvasiveName);
         }
       }).addTo(map);});
+ //add a local geojson file
+      //Thanks to https://www.igismap.com/add-load-geojson-file-point-polyline-polygon-map-leaflet-js/ for the tutorial
+      $.getJSON("VT_Data__Zoning_Source_Protection_Area_20130109_Middlebury.geojson",function(data){
+      // add GeoJSON layer to the map once the file is loaded
+      var datalayer = L.geoJson(data ,{
+        onEachFeature: function(feature, featureLayer) {
+          featureLayer.bindPopup(feature.properties.properties);
+        }
+      }).addTo(map);});
 
-      
 </script>
 
 </body>
