@@ -32,7 +32,7 @@
 <div id="map"></div>
 
 <script>
-  var map = L.map("map").setView([38.9687211,-77.7355496] 10);
+  var map = L.map("map").setView([47.258728,-122.465973], 10);
 
 var OpenStreetMap_HOT = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
 	maxZoom: 19,
@@ -52,7 +52,7 @@ map.addLayer(OpenStreetMap_HOT);
 
         //add a local geojson file
       //Thanks to https://www.igismap.com/add-load-geojson-file-point-polyline-polygon-map-leaflet-js/ for the tutorial
-      $.getJSON("VT_Data__Zoning_Source_Protection_Area_20130109_Middlebury.geojson",function(data){
+      $.getJSON("Invasive_Species.geojson",function(data){
       // add GeoJSON layer to the map once the file is loaded
       var datalayer = L.geoJson(data ,{
         onEachFeature: function(feature, featureLayer) {
