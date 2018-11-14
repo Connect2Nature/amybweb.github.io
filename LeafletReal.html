@@ -58,6 +58,15 @@ map.addLayer(OpenMapSurfer_Roads);
           featureLayer.bindPopup(feature.properties.ACRES);
         }
       }).addTo(map);});
+      //add a local geojson file
+      //Thanks to https://www.igismap.com/add-load-geojson-file-point-polyline-polygon-map-leaflet-js/ for the tutorial
+      $.getJSON("VT_Data__Statewide_Standardized_Parcel_Data__inactive_parcel_polygons (1).geojson",function(data){
+      // add GeoJSON layer to the map once the file is loaded
+      var datalayer = L.geoJson(data ,{
+        onEachFeature: function(feature, featureLayer) {
+          featureLayer.bindPopup(feature.properties.PROPTYPE);
+        }
+      }).addTo(map);});
 
 </script>
 
