@@ -15,7 +15,10 @@
 
 
 <div id='map'></div>
-
+	<h2 style="text-align: center;">Earthquakes & Watersheds</h2>
+			<div id='map' style='width: 100%; height: 500px;'></div>
+			<div id='EQ'>Earthquakes past 7 days OFF</div>
+			<div id='PW'>Priority Watersheds</div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWIxMCIsImEiOiJjam82YTJ0MHMwMGt0M3ZwNzYzZzlsa3EyIn0.HPi2gOsi8dSiVUPnCNIuLw';
 var map = new mapboxgl.Map({
@@ -24,16 +27,14 @@ var map = new mapboxgl.Map({
     center: [-120, 50],
     zoom: 2
 });
-
 map.on('load', function() {
     // Add a geojson point source.
     // Heatmap layers also work with a vector tile source.
     map.addSource('earthquakes', {
         "type": "geojson",
         "data":
-        "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
+        "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
     });
-
     map.addLayer({
         "id": "earthquakes-heat",
         "type": "heatmap",
@@ -89,7 +90,6 @@ map.on('load', function() {
             ],
         }
     }, 'waterway-label');
-
     map.addLayer({
         "id": "earthquakes-point",
         "type": "circle",
