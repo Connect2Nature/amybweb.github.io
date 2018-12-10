@@ -1,0 +1,31 @@
+{
+"type": "FeatureCollection",
+"name": "Untitled layer",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Point 1", "description": "Medicine Creek Treaty Grounds             December 24-26, 1854", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.7262115, 47.071291 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 2", "description": "October 24, 1855 Leschi and Quiemuth's Farms on Muck Creek", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.6283646, 46.9977291 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 3", "description": "October 27, 1855  Connell’s Prairie", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.1248818, 47.1916664 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 4", "description": "October 27, 1855 Burns Creek  Village                                                              ", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.1099257, 47.2765503 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 5", "description": "October 28, 1856 Soos Creek Village                                 ", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.1703506, 47.3081031 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 6", "description": "Ilalqo Village", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.2071075, 47.316192 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 7", "description": "October 28, 1855 Brannan Farm                                                   ", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.2126007, 47.3305046 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 8", "description": "October 31, 1855 Finnell's Swamp                                               ", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.1542251, 47.1777611 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 9", "description": "November 3, 1855 White River Crossing                                     ", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.1556091, 47.2628057 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 10", "description": "November 24, 1855\tBittings Prairie", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.2079659, 47.1687102 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 11", "description": "December 4, 1855, Brannan Claim", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.2123861, 47.329981 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 12", "description": "January 5, 1856\tFox Island", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.6124001, 47.2510383 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 13", "description": "Owhi's Home on the Wenas", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -120.6108284, 46.7536523 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 14", "description": "Week before January 28, 1855  Qualchan, Smartlowit brothers and warriors switch to snow shoes", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -121.1833191, 47.2403172 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 15", "description": "January 26, 1856 \"Battle of Seattle\"", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.3291588, 47.6000864 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 16", "description": "February 7, 1856 Griffin Prairie", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -121.9158411, 47.6215539 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 17", "description": "February 15, 1856  Green River precise spot unknown", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.1631622, 47.292853 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 19", "description": "March 1, 1856 March up the Stuck to White River Crossing", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.1978378, 47.2798695 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 20", "description": "Early March, 1856 Boise Creek Vicinity Paul Weyallup and Mowitch", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.0180225, 47.1754785 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 21", "description": "March 10, 1856 Connell's Prairie", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.1226501, 47.1909957 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 22", "description": "March 30, 1856 Mashel Massacre", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.3328924, 46.843139 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 23", "description": "August 5, 1856 Fox Island Stevens capitulates ", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.6118207, 47.2510383 ] } },
+{ "type": "Feature", "properties": { "Name": "Point 18", "description": "February 29, 1856 Elhi Hill Death of Kanasket", "tessellate": -1 }, "geometry": { "type": "Point", "coordinates": [ -122.1956491, 47.1741365 ] } },
+{ "type": "Feature", "properties": { "Name": "Line 27", "description": null, "tessellate": 1 }, "geometry": { "type": "LineString", "coordinates": [ [ -122.3698425, 47.4531657 ], [ -121.7930603, 46.8761522 ], [ -122.7928162, 46.8902316 ] ] } }
+]
+}
