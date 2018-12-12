@@ -47,27 +47,14 @@ map.addLayer(OpenMapSurfer_Roads);
 
   //add a local geojson file
       //Thanks to https://www.igismap.com/add-load-geojson-file-point-polyline-polygon-map-leaflet-js/ for the tutorial
-      $.getJSON("Invasive_Species.geojson",function(data){
+      $.getJSON("https://native-land.ca/coordinates/indigenousTreaties.json",function(data){
       // add GeoJSON layer to the map once the file is loaded
       var datalayer = L.geoJson(data ,{
         onEachFeature: function(feature, featureLayer) {
           featureLayer.bindPopup(feature.properties.InvasiveName);
         }
       });
-    //Create the marker cluster group
-      var markers = L.markerClusterGroup();
-      //Add the markers to the datalayer
-      markers.addLayer(datalayer);
-      //add the markers to the map
-      map.addLayer(markers);});
-      //add a local geojson file
-      //Thanks to https://www.igismap.com/add-load-geojson-file-point-polyline-polygon-map-leaflet-js/ for the tutorial
-      $.getJSON("battles1.geojson",function(data){
-      // add GeoJSON layer to the map once the file is loaded
-      var datalayer = L.geoJson(data ,{
-        onEachFeature: function(feature, featureLayer) {
-          featureLayer.bindPopup(feature.properties.description);
-        }
+   
       }).addTo(map);});
        
 

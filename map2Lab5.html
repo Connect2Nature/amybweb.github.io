@@ -28,16 +28,17 @@ map.on('load', function () {
 
     map.addLayer({
         "id": "battles",
-        "type": "circles",
+        "type": "circle",
         "source": {
           "type": "geojson",
-          "data": "./data/battles1.geojson"
+          "data": "./Lab5/data/battles1.geojson"
         },
         
         "paint": {
             "circle-color": "FFFF00",
             "circle-opacity": 0.5,
             "color-radius": 2.5,
+            
         }
     });
 });
