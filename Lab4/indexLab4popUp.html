@@ -10,28 +10,24 @@
 		
 		<!-- the div for the map -->
 		<!-- note the style is in-line, we have been putting it in the header. Outcome is the same -->
-        <h2 style="text-align: center;">Earthquakes Past 7 Days</h2>
-		<div id='map' style='width: 100%; height: 10;'></div>
+        <h2 style="text-align: left;">Earthquakes Past 7 Days</h2>
+		<div id='map' style='width: 800px; height: 800px;'></div>
         <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
 <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
 
 <style>
-
-   #map{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    z-index: 10;
-  }
-  </style>
- 
-
-   
+    .geocoder {
+        position:absolute;
+        z-index:1;
+        width:50%;
+        left:50%;
+        margin-left:-50%;
+        top:50px;
+    }
+    .mapboxgl-ctrl-geocoder { min-width:100%; }
 </style>
 <div id='map'></div>
-
+<div id='geocoder' class='geocoder'></div>
 		<!-- the script that controls the map -->
 		<script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWIxMCIsImEiOiJjam82YTJ0MHMwMGt0M3ZwNzYzZzlsa3EyIn0.HPi2gOsi8dSiVUPnCNIuLw';
