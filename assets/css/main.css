@@ -1086,21 +1086,21 @@ input, select, textarea {
 
 /* BG */
 
-	#bg {
+	#mt {
 		-moz-transform: scale(1.0);
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
 		-webkit-backface-visibility: hidden;
 		position: fixed;
-		top: 0;
+		top: 100;
 		left: 0;
-		width: 100%;
+		width: 25%;
 		height: 100vh;
 		z-index: 1;
 	}
 
-		#bg:before, #bg:after {
+		#mt:before, #mt:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1110,7 +1110,7 @@ input, select, textarea {
 			height: 100%;
 		}
 
-		#bg:before {
+		#mt:before {
 			-moz-transition: background-color 2.5s ease-in-out;
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
@@ -1126,7 +1126,7 @@ input, select, textarea {
 			z-index: 2;
 		}
 
-		#bg:after {
+		#mt:after {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
@@ -1135,14 +1135,14 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("Lab4/mt.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
 
-		body.is-article-visible #bg:after {
+		body.is-article-visible #mt.:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
 			-ms-transform: scale(1.0825);
@@ -1153,7 +1153,7 @@ input, select, textarea {
 			filter: blur(0.2rem);
 		}
 
-		body.is-preload #bg:before {
+		body.is-preload #mt.:before {
 			background-color: #000000;
 		}
 
