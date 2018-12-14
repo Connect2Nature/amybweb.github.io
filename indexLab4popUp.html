@@ -10,7 +10,7 @@
 		
 		<!-- the div for the map -->
 		<!-- note the style is in-line, we have been putting it in the header. Outcome is the same -->
-        <h2 style="text-align: left;">Earthquakes Past 7 Days</h2>
+        <h2 style="text-align: left;">Earthquakes in the Past Hour</h2>
 		<div id='map' style='width: 800px; height: 800px;'></div>
         <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
 <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
@@ -43,7 +43,7 @@ style: 'mapbox://styles/ab10/cjon9inhs6qne2sl92n8ex698',
 				//add a source layer for earthquakes
 				map.addSource('earthquakes', {
 			        "type": "geojson",
-			        "data": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
+			        "data": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson"
 			    });
 			    //add the earthquakes to the map
 			    map.addLayer({

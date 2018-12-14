@@ -23,24 +23,7 @@
 		position: absolute;
 		left: 0.7em;
 		top: 7em;
-	}
-	#remover:hover {
-		background-color: 	#C0C0C0;
-	}
-	#PW {
-		margin: 0 auto;
-		background-color: 	#C0C0C0;
-		color: 'black';
-		padding: 0.1em;
-		border: 2px solid #808080	;
-		border-radius: 0.3em;
-		cursor: pointer;
-		position: absolute;
-		left: 0.7em;
-		top: 4.5em;
-	}
-	#PW:hover {
-		background-color: #C0C0C0);
+	
 	}
     #EQ {
 		margin: 0 auto;
@@ -64,16 +47,26 @@
 
 <div id='map'>
 
-		<h2 style="text-align: center;">Earthquakes Past 7 Days</h2>
-			<div id='map' style='width: 100%; height: 500px;'></div>
+		<h2 style="text-align: center;">Earthquakes Last 30 Days</h2>
+			<div id='map' style='width: 800px; height: 800px; height: 500px;'></div>
 			<div id='EQ'>Earthquakes past 7 days OFF</div>
 		
         <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
-        
 <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
-
+<style>
+    .geocoder {
+        position:absolute;
+        z-index:1;
+        width:50%;
+        left:50%;
+        margin-left:-50%;
+        top:50px;
+    }
+    .mapboxgl-ctrl-geocoder { min-width:100%; }
+</style>
 <div id='map'></div>
-	
+<div id='geocoder' class='geocoder'></div>
+
             
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiYWIxMCIsImEiOiJjam82YTJ0MHMwMGt0M3ZwNzYzZzlsa3EyIn0.HPi2gOsi8dSiVUPnCNIuLw';
@@ -89,7 +82,7 @@ map.on('load', function() {
     map.addSource('earthquakes', {
         "type": "geojson",
         "data":
-        "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
+        "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson"
     });
     map.addLayer({
         "id": "earthquakes-heat",
@@ -202,6 +195,35 @@ map.addControl(new MapboxGeocoder({
 }));
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
+
+map.on('click', 'earthquakes', function (e) {
+    /* add functionality here */
+    var coordinates = e.features[0].geometry.coordinates.slice();
+			        //print the properties to the console when clicked
+			        console.log(e.features[0].properties);
+			        //THE HTML ELEMENT THAT WILL GO IN THE POPUP
+			        var description = "<p>Mag: " + e.features[0].properties.mag + "</p> <p>Status: " + e.features[0].properties.status + "</p> <p>Tsunami: " + e.features[0].properties.tsunami + "</p>";
+			        //var description = e.features[0].properties.mag;
+
+			        // Ensure that if the map is zoomed out such that multiple
+			        // copies of the feature are visible, the popup appears
+			        // over the copy being pointed to.
+			        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+			            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+			        }
+			        //make the popup
+			        new mapboxgl.Popup()
+			            .setLngLat(coordinates)
+			            .setHTML(description)
+			            .addTo(map);
+
+			    });
+			    map.setCenter([-122, 47]);
+		
+		</script>
+	</body>
+</html>
+});
 </script>
 
 </body>
